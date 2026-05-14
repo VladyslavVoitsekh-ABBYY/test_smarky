@@ -1,0 +1,27 @@
+{
+  "availableLanguages": [
+    "English",
+    "French",
+    "German",
+    "Dutch",
+    "Italian",
+    "PortugueseStandard",
+    "Danish",
+    "Swedish",
+    "NorwegianBokmal",
+    "Finnish",
+    "Croatian",
+    "Czech",
+    "Hungarian",
+    "Polish",
+    "Romanian",
+    "Bulgarian",
+    "Estonian",
+    "Slovak",
+    "Lithuanian",
+    "Latvian",
+    "Turkish",
+    "Ukrainian"
+  ],
+  "handwritten": false
+}
