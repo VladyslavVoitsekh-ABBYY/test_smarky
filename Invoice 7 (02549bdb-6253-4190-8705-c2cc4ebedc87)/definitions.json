@@ -1,0 +1,1422 @@
+{
+  "fields": [
+    {
+      "childIndex": 0,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_36",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Invoice Number",
+      "textFormat": "Text",
+      "type": "Text"
+    },
+    {
+      "childIndex": 1,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_37",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Invoice Date",
+      "ruleIds": [
+        "1d9671a8-bfb7-4ad0-b9eb-8117aef28b01"
+      ],
+      "textFormat": "Date",
+      "type": "Text"
+    },
+    {
+      "childIndex": 2,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_40",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Total",
+      "ruleIds": [
+        "4e224db9-eca9-4c4d-9f24-0caa772f9d54",
+        "91287515-15af-4de2-8a7c-91c76afdadd4",
+        "57e178fd-0adb-4288-a401-b453b33ce515",
+        "342d3c09-eb9e-4f7c-84bd-ba77291f9bd9",
+        "079fe3a3-578e-4219-9da2-fb9e6f7e2b2f",
+        "984f8f13-f4f1-4608-afd9-4e3f17bdcaa7",
+        "58dcddcd-0709-4edd-a723-d098474c24dd"
+      ],
+      "textFormat": "Amount",
+      "type": "Text"
+    },
+    {
+      "childIndex": 3,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_41",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Currency",
+      "ruleIds": [
+        "0408b42d-60f0-4eec-9864-17e07245e81d",
+        "38a17082-20d9-4551-b081-d8467416bb25",
+        "984f8f13-f4f1-4608-afd9-4e3f17bdcaa7"
+      ],
+      "textFormat": "Text",
+      "type": "Text"
+    },
+    {
+      "childIndex": 4,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_21",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Business Unit",
+      "type": "Group"
+    },
+    {
+      "childIndex": 0,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_21_15",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Name",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_21",
+      "ruleIds": [
+        "5dec85c0-0edb-43c3-893f-c99777a083bf"
+      ],
+      "textFormat": "Text",
+      "type": "Text"
+    },
+    {
+      "childIndex": 1,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_21_12",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Tax ID",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_21",
+      "ruleIds": [
+        "5dec85c0-0edb-43c3-893f-c99777a083bf"
+      ],
+      "textFormat": "Text",
+      "type": "Text"
+    },
+    {
+      "childIndex": 2,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_21_18",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Address",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_21",
+      "textFormat": "Text",
+      "type": "Text"
+    },
+    {
+      "childIndex": 3,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_21_6",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Country",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_21",
+      "ruleIds": [
+        "0408b42d-60f0-4eec-9864-17e07245e81d",
+        "978cadbb-709f-4d63-adbd-173cbe2db40f",
+        "38a17082-20d9-4551-b081-d8467416bb25",
+        "5dec85c0-0edb-43c3-893f-c99777a083bf"
+      ],
+      "textFormat": "Text",
+      "type": "Text"
+    },
+    {
+      "childIndex": 4,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_21_5",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "City",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_21",
+      "ruleIds": [
+        "5dec85c0-0edb-43c3-893f-c99777a083bf"
+      ],
+      "textFormat": "Text",
+      "type": "Text"
+    },
+    {
+      "childIndex": 5,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_21_3",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Street",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_21",
+      "ruleIds": [
+        "5dec85c0-0edb-43c3-893f-c99777a083bf"
+      ],
+      "textFormat": "Text",
+      "type": "Text"
+    },
+    {
+      "childIndex": 6,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_21_4",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Postal Code",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_21",
+      "ruleIds": [
+        "5dec85c0-0edb-43c3-893f-c99777a083bf"
+      ],
+      "textFormat": "Text",
+      "type": "Text"
+    },
+    {
+      "childIndex": 7,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_21_13",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "ID",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_21",
+      "ruleIds": [
+        "5dec85c0-0edb-43c3-893f-c99777a083bf",
+        "ce543fbf-2415-47ea-a32a-af687dfc07ee",
+        "35a534b0-6b37-4556-a00e-db7a2777bb10",
+        "5d6bb582-3e41-4acd-bc4d-52ba78a11dd3"
+      ],
+      "textFormat": "Text",
+      "type": "Text"
+    },
+    {
+      "childIndex": 5,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_22",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Vendor",
+      "type": "Group"
+    },
+    {
+      "childIndex": 0,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_22_14",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Name",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_22",
+      "ruleIds": [
+        "ce543fbf-2415-47ea-a32a-af687dfc07ee"
+      ],
+      "textFormat": "Text",
+      "type": "Text"
+    },
+    {
+      "childIndex": 1,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_22_3",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Tax ID",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_22",
+      "ruleIds": [
+        "978cadbb-709f-4d63-adbd-173cbe2db40f",
+        "ce543fbf-2415-47ea-a32a-af687dfc07ee"
+      ],
+      "textFormat": "Text",
+      "type": "Text"
+    },
+    {
+      "childIndex": 2,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_22_4",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "National Tax ID",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_22",
+      "ruleIds": [
+        "ce543fbf-2415-47ea-a32a-af687dfc07ee"
+      ],
+      "textFormat": "Text",
+      "type": "Text"
+    },
+    {
+      "childIndex": 3,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_22_5",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "IBAN",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_22",
+      "ruleIds": [
+        "ce543fbf-2415-47ea-a32a-af687dfc07ee"
+      ],
+      "textFormat": "Text",
+      "type": "Text"
+    },
+    {
+      "childIndex": 4,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_22_6",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Bank Account",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_22",
+      "ruleIds": [
+        "ce543fbf-2415-47ea-a32a-af687dfc07ee"
+      ],
+      "textFormat": "Text",
+      "type": "Text"
+    },
+    {
+      "childIndex": 5,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_22_16",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Bank Code",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_22",
+      "ruleIds": [
+        "ce543fbf-2415-47ea-a32a-af687dfc07ee"
+      ],
+      "textFormat": "Text",
+      "type": "Text"
+    },
+    {
+      "childIndex": 6,
+      "id": "d3d26b1c-3659-4150-bb68-68064befaca0",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "SWIFT Code",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_22",
+      "textFormat": "Text",
+      "type": "Text"
+    },
+    {
+      "childIndex": 7,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_22_17",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Address",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_22",
+      "textFormat": "Text",
+      "type": "Text"
+    },
+    {
+      "childIndex": 8,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_22_10",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Country",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_22",
+      "ruleIds": [
+        "38a17082-20d9-4551-b081-d8467416bb25",
+        "ce543fbf-2415-47ea-a32a-af687dfc07ee"
+      ],
+      "textFormat": "Text",
+      "type": "Text"
+    },
+    {
+      "childIndex": 9,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_22_9",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "City",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_22",
+      "ruleIds": [
+        "ce543fbf-2415-47ea-a32a-af687dfc07ee"
+      ],
+      "textFormat": "Text",
+      "type": "Text"
+    },
+    {
+      "childIndex": 10,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_22_7",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Street",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_22",
+      "ruleIds": [
+        "ce543fbf-2415-47ea-a32a-af687dfc07ee"
+      ],
+      "textFormat": "Text",
+      "type": "Text"
+    },
+    {
+      "childIndex": 11,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_22_8",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Postal Code",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_22",
+      "ruleIds": [
+        "ce543fbf-2415-47ea-a32a-af687dfc07ee"
+      ],
+      "textFormat": "Text",
+      "type": "Text"
+    },
+    {
+      "childIndex": 12,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_22_12",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "ID",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_22",
+      "ruleIds": [
+        "ce543fbf-2415-47ea-a32a-af687dfc07ee",
+        "35a534b0-6b37-4556-a00e-db7a2777bb10"
+      ],
+      "textFormat": "Text",
+      "type": "Text"
+    },
+    {
+      "childIndex": 6,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_45",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Delivery Date",
+      "textFormat": "Date",
+      "type": "Text"
+    },
+    {
+      "childIndex": 7,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_23",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Invoice Data",
+      "type": "Group"
+    },
+    {
+      "childIndex": 0,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_23_3",
+      "isHidden": true,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Credit Note",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_23",
+      "ruleIds": [
+        "079fe3a3-578e-4219-9da2-fb9e6f7e2b2f"
+      ],
+      "textFormat": "Text",
+      "type": "Text"
+    },
+    {
+      "childIndex": 1,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_23_6",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Due Date",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_23",
+      "textFormat": "Date",
+      "type": "Text"
+    },
+    {
+      "childIndex": 8,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_50",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Reversed Charge",
+      "ruleIds": [
+        "2560ffa6-22b7-41f8-824f-71f47b79ef48"
+      ],
+      "type": "Checkmark"
+    },
+    {
+      "childIndex": 9,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_24",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Taxes",
+      "type": "Group"
+    },
+    {
+      "childIndex": 0,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_24_16",
+      "isHidden": true,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Reversed Charge",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_24",
+      "ruleIds": [
+        "2560ffa6-22b7-41f8-824f-71f47b79ef48"
+      ],
+      "textFormat": "Text",
+      "type": "Text"
+    },
+    {
+      "childIndex": 1,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_24_22",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Total Net Amount",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_24",
+      "ruleIds": [
+        "91287515-15af-4de2-8a7c-91c76afdadd4",
+        "342d3c09-eb9e-4f7c-84bd-ba77291f9bd9",
+        "58dcddcd-0709-4edd-a723-d098474c24dd",
+        "1a817c02-e5d6-4928-a570-93a7f16b0f57"
+      ],
+      "textFormat": "Amount",
+      "type": "Text"
+    },
+    {
+      "childIndex": 2,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_24_21",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Total Taxes",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_24",
+      "ruleIds": [
+        "91287515-15af-4de2-8a7c-91c76afdadd4",
+        "be315e53-2978-41d4-a0af-8cf7bdfcd71c",
+        "58dcddcd-0709-4edd-a723-d098474c24dd",
+        "2560ffa6-22b7-41f8-824f-71f47b79ef48"
+      ],
+      "textFormat": "Amount",
+      "type": "Text"
+    },
+    {
+      "childIndex": 3,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_24_45",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Tax Rates",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_24",
+      "ruleIds": [
+        "984f8f13-f4f1-4608-afd9-4e3f17bdcaa7",
+        "be315e53-2978-41d4-a0af-8cf7bdfcd71c",
+        "58dcddcd-0709-4edd-a723-d098474c24dd",
+        "2560ffa6-22b7-41f8-824f-71f47b79ef48",
+        "1a817c02-e5d6-4928-a570-93a7f16b0f57"
+      ],
+      "type": "Group"
+    },
+    {
+      "childIndex": 0,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_24_45_1",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Net Amount",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_24_45",
+      "ruleIds": [
+        "984f8f13-f4f1-4608-afd9-4e3f17bdcaa7",
+        "be315e53-2978-41d4-a0af-8cf7bdfcd71c",
+        "58dcddcd-0709-4edd-a723-d098474c24dd",
+        "1a817c02-e5d6-4928-a570-93a7f16b0f57"
+      ],
+      "textFormat": "Amount",
+      "type": "Text"
+    },
+    {
+      "childIndex": 1,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_24_45_2",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Tax Amount",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_24_45",
+      "ruleIds": [
+        "984f8f13-f4f1-4608-afd9-4e3f17bdcaa7",
+        "be315e53-2978-41d4-a0af-8cf7bdfcd71c",
+        "58dcddcd-0709-4edd-a723-d098474c24dd",
+        "2560ffa6-22b7-41f8-824f-71f47b79ef48"
+      ],
+      "textFormat": "Amount",
+      "type": "Text"
+    },
+    {
+      "childIndex": 2,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_24_45_3",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Tax Rate",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_24_45",
+      "ruleIds": [
+        "be315e53-2978-41d4-a0af-8cf7bdfcd71c"
+      ],
+      "textFormat": "Number",
+      "type": "Text"
+    },
+    {
+      "childIndex": 4,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_24_23",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Non Taxable Amount",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_24",
+      "ruleIds": [
+        "984f8f13-f4f1-4608-afd9-4e3f17bdcaa7",
+        "58dcddcd-0709-4edd-a723-d098474c24dd",
+        "1a817c02-e5d6-4928-a570-93a7f16b0f57"
+      ],
+      "textFormat": "Amount",
+      "type": "Text"
+    },
+    {
+      "childIndex": 10,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_63",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Invoice Type",
+      "type": "Group"
+    },
+    {
+      "childIndex": 0,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_63_2",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Invoice",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_63",
+      "ruleIds": [
+        "079fe3a3-578e-4219-9da2-fb9e6f7e2b2f"
+      ],
+      "type": "Checkmark"
+    },
+    {
+      "childIndex": 1,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_63_1",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Credit Note",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_63",
+      "ruleIds": [
+        "079fe3a3-578e-4219-9da2-fb9e6f7e2b2f"
+      ],
+      "type": "Checkmark"
+    },
+    {
+      "childIndex": 11,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_51",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Purchase Order",
+      "ruleIds": [
+        "fa33bbb4-127c-4664-ae38-07b973772919",
+        "342d3c09-eb9e-4f7c-84bd-ba77291f9bd9",
+        "ec177d17-8c4e-4ae4-aeb8-c72a57aa70c7",
+        "47a943a4-10e3-4c36-8377-f887c7e04e66"
+      ],
+      "type": "Group"
+    },
+    {
+      "childIndex": 0,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_51_1",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Order Number",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_51",
+      "ruleIds": [
+        "35a534b0-6b37-4556-a00e-db7a2777bb10",
+        "fa33bbb4-127c-4664-ae38-07b973772919",
+        "ec177d17-8c4e-4ae4-aeb8-c72a57aa70c7",
+        "47a943a4-10e3-4c36-8377-f887c7e04e66"
+      ],
+      "textFormat": "Text",
+      "type": "Text"
+    },
+    {
+      "childIndex": 1,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_51_2",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Total",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_51",
+      "ruleIds": [
+        "35a534b0-6b37-4556-a00e-db7a2777bb10",
+        "342d3c09-eb9e-4f7c-84bd-ba77291f9bd9"
+      ],
+      "textFormat": "Amount",
+      "type": "Text"
+    },
+    {
+      "childIndex": 2,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_51_3",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Order Checked",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_51",
+      "ruleIds": [
+        "342d3c09-eb9e-4f7c-84bd-ba77291f9bd9",
+        "ec177d17-8c4e-4ae4-aeb8-c72a57aa70c7",
+        "47a943a4-10e3-4c36-8377-f887c7e04e66"
+      ],
+      "type": "Checkmark"
+    },
+    {
+      "childIndex": 12,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Line Items",
+      "ruleIds": [
+        "b4713397-d0d8-4cf5-bbcd-5b7f11b4e2e6",
+        "38a17082-20d9-4551-b081-d8467416bb25",
+        "6f323419-305a-44ab-98b3-36706b0b3618",
+        "4e224db9-eca9-4c4d-9f24-0caa772f9d54",
+        "91287515-15af-4de2-8a7c-91c76afdadd4",
+        "fa33bbb4-127c-4664-ae38-07b973772919",
+        "ec177d17-8c4e-4ae4-aeb8-c72a57aa70c7",
+        "47a943a4-10e3-4c36-8377-f887c7e04e66"
+      ],
+      "type": "Group"
+    },
+    {
+      "childIndex": 0,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53_8",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Order Number",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53",
+      "ruleIds": [
+        "5d6bb582-3e41-4acd-bc4d-52ba78a11dd3",
+        "fa33bbb4-127c-4664-ae38-07b973772919",
+        "ec177d17-8c4e-4ae4-aeb8-c72a57aa70c7",
+        "47a943a4-10e3-4c36-8377-f887c7e04e66"
+      ],
+      "textFormat": "Text",
+      "type": "Text"
+    },
+    {
+      "childIndex": 1,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53_12",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Order Date",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53",
+      "textFormat": "Date",
+      "type": "Text"
+    },
+    {
+      "childIndex": 2,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53_1",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Position",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53",
+      "textFormat": "Text",
+      "type": "Text"
+    },
+    {
+      "childIndex": 3,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53_10",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Article Number Vendor",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53",
+      "ruleIds": [
+        "5d6bb582-3e41-4acd-bc4d-52ba78a11dd3"
+      ],
+      "textFormat": "Text",
+      "type": "Text"
+    },
+    {
+      "childIndex": 4,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53_22",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Article Number BU",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53",
+      "textFormat": "Text",
+      "type": "Text"
+    },
+    {
+      "childIndex": 5,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53_9",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Description",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53",
+      "ruleIds": [
+        "5d6bb582-3e41-4acd-bc4d-52ba78a11dd3"
+      ],
+      "textFormat": "Text",
+      "type": "Text"
+    },
+    {
+      "childIndex": 6,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53_3",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Quantity",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53",
+      "ruleIds": [
+        "6f323419-305a-44ab-98b3-36706b0b3618",
+        "5d6bb582-3e41-4acd-bc4d-52ba78a11dd3"
+      ],
+      "textFormat": "Number",
+      "type": "Text"
+    },
+    {
+      "childIndex": 7,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53_11",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Unit of Measurement",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53",
+      "textFormat": "Text",
+      "type": "Text"
+    },
+    {
+      "childIndex": 8,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53_4",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Unit Price",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53",
+      "ruleIds": [
+        "b4713397-d0d8-4cf5-bbcd-5b7f11b4e2e6",
+        "6f323419-305a-44ab-98b3-36706b0b3618",
+        "5d6bb582-3e41-4acd-bc4d-52ba78a11dd3"
+      ],
+      "textFormat": "Amount",
+      "type": "Text"
+    },
+    {
+      "childIndex": 9,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53_5",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Discount Percentage",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53",
+      "ruleIds": [
+        "5d6bb582-3e41-4acd-bc4d-52ba78a11dd3"
+      ],
+      "textFormat": "Number",
+      "type": "Text"
+    },
+    {
+      "childIndex": 10,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53_17",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Discount",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53",
+      "ruleIds": [
+        "6f323419-305a-44ab-98b3-36706b0b3618"
+      ],
+      "textFormat": "Amount",
+      "type": "Text"
+    },
+    {
+      "childIndex": 11,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53_6",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Net Price",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53",
+      "ruleIds": [
+        "b4713397-d0d8-4cf5-bbcd-5b7f11b4e2e6",
+        "6f323419-305a-44ab-98b3-36706b0b3618",
+        "91287515-15af-4de2-8a7c-91c76afdadd4",
+        "5d6bb582-3e41-4acd-bc4d-52ba78a11dd3"
+      ],
+      "textFormat": "Amount",
+      "type": "Text"
+    },
+    {
+      "childIndex": 12,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53_14",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Tax Rate",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53",
+      "ruleIds": [
+        "6f323419-305a-44ab-98b3-36706b0b3618"
+      ],
+      "textFormat": "Number",
+      "type": "Text"
+    },
+    {
+      "childIndex": 13,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53_18",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Tax Amount",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53",
+      "ruleIds": [
+        "6f323419-305a-44ab-98b3-36706b0b3618"
+      ],
+      "textFormat": "Amount",
+      "type": "Text"
+    },
+    {
+      "childIndex": 14,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53_15",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Tax Code",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53",
+      "textFormat": "Text",
+      "type": "Text"
+    },
+    {
+      "childIndex": 15,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53_7",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Total Price",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53",
+      "ruleIds": [
+        "b4713397-d0d8-4cf5-bbcd-5b7f11b4e2e6",
+        "6f323419-305a-44ab-98b3-36706b0b3618",
+        "4e224db9-eca9-4c4d-9f24-0caa772f9d54",
+        "5d6bb582-3e41-4acd-bc4d-52ba78a11dd3"
+      ],
+      "textFormat": "Amount",
+      "type": "Text"
+    },
+    {
+      "childIndex": 16,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53_19",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Currency",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53",
+      "ruleIds": [
+        "b4713397-d0d8-4cf5-bbcd-5b7f11b4e2e6",
+        "38a17082-20d9-4551-b081-d8467416bb25"
+      ],
+      "textFormat": "Text",
+      "type": "Text"
+    },
+    {
+      "childIndex": 17,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53_25",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Is Valid",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53",
+      "ruleIds": [
+        "47a943a4-10e3-4c36-8377-f887c7e04e66"
+      ],
+      "type": "Checkmark"
+    },
+    {
+      "childIndex": 18,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53_26",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Order Item Id",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53",
+      "ruleIds": [
+        "5d6bb582-3e41-4acd-bc4d-52ba78a11dd3",
+        "ec177d17-8c4e-4ae4-aeb8-c72a57aa70c7",
+        "47a943a4-10e3-4c36-8377-f887c7e04e66"
+      ],
+      "textFormat": "Text",
+      "type": "Text"
+    },
+    {
+      "childIndex": 13,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_62",
+      "isHidden": true,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Bank Information",
+      "type": "Group"
+    },
+    {
+      "childIndex": 0,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_62_1",
+      "isHidden": true,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Bank Name",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_62",
+      "textFormat": "Text",
+      "type": "Text"
+    },
+    {
+      "childIndex": 1,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_62_2",
+      "isHidden": true,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Branch Name",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_62",
+      "textFormat": "Text",
+      "type": "Text"
+    },
+    {
+      "childIndex": 2,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_62_3",
+      "isHidden": true,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Account Type",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_62",
+      "textFormat": "Text",
+      "type": "Text"
+    },
+    {
+      "childIndex": 3,
+      "id": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_62_4",
+      "isHidden": true,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Account Number",
+      "parentId": "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_62",
+      "textFormat": "Text",
+      "type": "Text"
+    },
+    {
+      "childIndex": 14,
+      "id": "10a872d5-8731-4bd4-acd0-1e1cfaae6a10",
+      "isHidden": true,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Vendors_ExternalId",
+      "textFormat": "Text",
+      "type": "Text"
+    },
+    {
+      "childIndex": 15,
+      "id": "412c924c-56fe-4fbf-b8a7-e987c33c46aa",
+      "isHidden": true,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "BusinessUnits_ExternalId",
+      "textFormat": "Text",
+      "type": "Text"
+    },
+    {
+      "childIndex": 16,
+      "id": "1aecdc55-da9c-4ba3-8ad5-f6e91b4e9c3b",
+      "isHidden": true,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "PurchaseOrders_ExternalId",
+      "textFormat": "Text",
+      "type": "Text"
+    },
+    {
+      "childIndex": 17,
+      "id": "12d351d5-8d42-4a31-95e5-935907dcdbf0",
+      "isHidden": true,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "PurchaseOrderDetails_ExternalId",
+      "textFormat": "Text",
+      "type": "Text"
+    },
+    {
+      "childIndex": 18,
+      "id": "c9db16fd-18ab-4c12-9f34-34f409d7bf31",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "ShipTo",
+      "type": "Group"
+    },
+    {
+      "childIndex": 0,
+      "id": "7216495e-abc5-4865-ac04-52a7f11fd58f",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Name",
+      "parentId": "c9db16fd-18ab-4c12-9f34-34f409d7bf31",
+      "textFormat": "Text",
+      "type": "Text"
+    },
+    {
+      "childIndex": 1,
+      "id": "9ee39417-f060-45f1-83de-f9c8f205cba1",
+      "isHidden": false,
+      "isHiddenByUser": false,
+      "isInherited": true,
+      "name": "Address",
+      "parentId": "c9db16fd-18ab-4c12-9f34-34f409d7bf31",
+      "textFormat": "Text",
+      "type": "Text"
+    }
+  ],
+  "rules": [
+    {
+      "id": "0408b42d-60f0-4eec-9864-17e07245e81d",
+      "isEnabled": true,
+      "isHidden": false,
+      "isReadOnly": true,
+      "name": "Currency is required",
+      "type": "CustomScript",
+      "usedFieldIds": [
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_21_6",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_41"
+      ]
+    },
+    {
+      "id": "978cadbb-709f-4d63-adbd-173cbe2db40f",
+      "isEnabled": true,
+      "isHidden": false,
+      "isReadOnly": true,
+      "name": "Vendor VATID is required",
+      "type": "CustomScript",
+      "usedFieldIds": [
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_21_6",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_22_3"
+      ]
+    },
+    {
+      "id": "b4713397-d0d8-4cf5-bbcd-5b7f11b4e2e6",
+      "isEnabled": true,
+      "isHidden": false,
+      "isReadOnly": true,
+      "name": "Separate currency from amount in LI money fields",
+      "type": "CustomScript",
+      "usedFieldIds": [
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53_19",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53_4",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53_6",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53_7",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53"
+      ]
+    },
+    {
+      "id": "38a17082-20d9-4551-b081-d8467416bb25",
+      "isEnabled": true,
+      "isHidden": false,
+      "isReadOnly": true,
+      "name": "Check invoice and line items currency",
+      "type": "CustomScript",
+      "usedFieldIds": [
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_21_6",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_22_10",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_41",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53_19"
+      ]
+    },
+    {
+      "id": "6f323419-305a-44ab-98b3-36706b0b3618",
+      "isEnabled": true,
+      "isHidden": false,
+      "isReadOnly": true,
+      "name": "Check item amount",
+      "type": "CustomScript",
+      "usedFieldIds": [
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53_4",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53_3",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53_17",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53_6",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53_7",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53_18",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53_14",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53"
+      ]
+    },
+    {
+      "id": "4e224db9-eca9-4c4d-9f24-0caa772f9d54",
+      "isEnabled": true,
+      "isHidden": false,
+      "isReadOnly": true,
+      "name": "Check LI Total Prices against Total Amount",
+      "type": "CustomScript",
+      "usedFieldIds": [
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53_7",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_40",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53"
+      ]
+    },
+    {
+      "id": "91287515-15af-4de2-8a7c-91c76afdadd4",
+      "isEnabled": true,
+      "isHidden": false,
+      "isReadOnly": true,
+      "name": "Check LI Net Prices against Total Net Amount",
+      "type": "CustomScript",
+      "usedFieldIds": [
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_24_22",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53_6",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_40",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_24_21",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53"
+      ]
+    },
+    {
+      "id": "57e178fd-0adb-4288-a401-b453b33ce515",
+      "isEnabled": true,
+      "isHidden": true,
+      "isReadOnly": true,
+      "name": "Is Required",
+      "type": "IsRequired",
+      "usedFieldIds": [
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_40"
+      ]
+    },
+    {
+      "id": "1d9671a8-bfb7-4ad0-b9eb-8117aef28b01",
+      "isEnabled": true,
+      "isHidden": true,
+      "isReadOnly": true,
+      "name": "Is Required",
+      "type": "IsRequired",
+      "usedFieldIds": [
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_37"
+      ]
+    },
+    {
+      "id": "5dec85c0-0edb-43c3-893f-c99777a083bf",
+      "isEnabled": true,
+      "isHidden": false,
+      "isReadOnly": true,
+      "name": "Business unit must be found in database",
+      "type": "DbLookup",
+      "usedFieldIds": [
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_21_12",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_21_15",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_21_4",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_21_3",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_21_5",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_21_6",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_21_13"
+      ]
+    },
+    {
+      "id": "ce543fbf-2415-47ea-a32a-af687dfc07ee",
+      "isEnabled": true,
+      "isHidden": false,
+      "isReadOnly": true,
+      "name": "Check vendor's details against database",
+      "type": "DbLookup",
+      "usedFieldIds": [
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_22_3",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_22_4",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_21_13",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_22_5",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_22_6",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_22_16",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_22_14",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_22_8",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_22_7",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_22_9",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_22_10",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_22_12"
+      ]
+    },
+    {
+      "id": "35a534b0-6b37-4556-a00e-db7a2777bb10",
+      "isEnabled": true,
+      "isHidden": false,
+      "isReadOnly": true,
+      "name": "Check purchase order number and amount",
+      "type": "DbLookup",
+      "usedFieldIds": [
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_51_1",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_51_2",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_22_12",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_21_13"
+      ]
+    },
+    {
+      "id": "5d6bb582-3e41-4acd-bc4d-52ba78a11dd3",
+      "isEnabled": true,
+      "isHidden": false,
+      "isReadOnly": true,
+      "name": "Match invoice line item with order item",
+      "type": "DbLookup",
+      "usedFieldIds": [
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53_8",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53_10",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53_3",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53_4",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53_5",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53_6",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53_7",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_21_13",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53_9",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53_26"
+      ]
+    },
+    {
+      "id": "fa33bbb4-127c-4664-ae38-07b973772919",
+      "isEnabled": true,
+      "isHidden": false,
+      "isReadOnly": true,
+      "name": "Copy Order Number",
+      "type": "CustomScript",
+      "usedFieldIds": [
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_51",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_51_1",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53_8"
+      ]
+    },
+    {
+      "id": "342d3c09-eb9e-4f7c-84bd-ba77291f9bd9",
+      "isEnabled": true,
+      "isHidden": false,
+      "isReadOnly": true,
+      "name": "Check purchase order total amount ",
+      "type": "CustomScript",
+      "usedFieldIds": [
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_51",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_51_2",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_51_3",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_24_22",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_40"
+      ]
+    },
+    {
+      "id": "ec177d17-8c4e-4ae4-aeb8-c72a57aa70c7",
+      "isEnabled": true,
+      "isHidden": false,
+      "isReadOnly": true,
+      "name": "Check matching of line items to unique order items",
+      "type": "CustomScript",
+      "usedFieldIds": [
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_51_3",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_51",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_51_1",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53_8",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53_26"
+      ]
+    },
+    {
+      "id": "47a943a4-10e3-4c36-8377-f887c7e04e66",
+      "isEnabled": true,
+      "isHidden": false,
+      "isReadOnly": true,
+      "name": "If order is checked make line items valid",
+      "type": "CustomScript",
+      "usedFieldIds": [
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_51_1",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_51",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_51_3",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53_26",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53_8",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_53_25"
+      ]
+    },
+    {
+      "id": "079fe3a3-578e-4219-9da2-fb9e6f7e2b2f",
+      "isEnabled": true,
+      "isHidden": false,
+      "isReadOnly": true,
+      "name": "Detect invoice type",
+      "type": "CustomScript",
+      "usedFieldIds": [
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_40",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_23_3",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_63_2",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_63_1"
+      ]
+    },
+    {
+      "id": "984f8f13-f4f1-4608-afd9-4e3f17bdcaa7",
+      "isEnabled": true,
+      "isHidden": false,
+      "isReadOnly": true,
+      "name": "Separate currency from amount in money fields",
+      "type": "CustomScript",
+      "usedFieldIds": [
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_24_45",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_40",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_41",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_24_45_1",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_24_45_2",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_24_23"
+      ]
+    },
+    {
+      "id": "be315e53-2978-41d4-a0af-8cf7bdfcd71c",
+      "isEnabled": true,
+      "isHidden": false,
+      "isReadOnly": true,
+      "name": "Check Total Tax",
+      "type": "CustomScript",
+      "usedFieldIds": [
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_24_45",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_24_45_1",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_24_45_2",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_24_21",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_24_45_3"
+      ]
+    },
+    {
+      "id": "58dcddcd-0709-4edd-a723-d098474c24dd",
+      "isEnabled": true,
+      "isHidden": false,
+      "isReadOnly": true,
+      "name": "Check Total field",
+      "type": "CustomScript",
+      "usedFieldIds": [
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_40",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_24_21",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_24_45",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_24_45_1",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_24_45_2",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_24_23",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_24_22"
+      ]
+    },
+    {
+      "id": "2560ffa6-22b7-41f8-824f-71f47b79ef48",
+      "isEnabled": true,
+      "isHidden": false,
+      "isReadOnly": true,
+      "name": "Reversed Charge field is empty or completed",
+      "type": "CustomScript",
+      "usedFieldIds": [
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_24_16",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_24_21",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_24_45",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_24_45_2",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_50"
+      ]
+    },
+    {
+      "id": "1a817c02-e5d6-4928-a570-93a7f16b0f57",
+      "isEnabled": true,
+      "isHidden": false,
+      "isReadOnly": true,
+      "name": "Check Net Total",
+      "type": "CustomScript",
+      "usedFieldIds": [
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_24_45",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_24_45_1",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_24_23",
+        "FC_f8a9a136_2116_4002_b87d_90ef2d139d60_24_22"
+      ]
+    }
+  ]
+}
