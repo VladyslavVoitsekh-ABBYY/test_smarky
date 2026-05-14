@@ -1,0 +1,208 @@
+{
+  "skillParameters": [
+    {
+      "catalogValue": {
+        "catalogId": "Vendors",
+        "catalogName": "Vendors",
+        "columnScheme": {
+          "columns": [
+            {
+              "columnType": "Text",
+              "name": "Id"
+            },
+            {
+              "columnType": "Text",
+              "name": "Name"
+            },
+            {
+              "columnType": "Text",
+              "name": "City"
+            },
+            {
+              "columnType": "Text",
+              "name": "Street"
+            },
+            {
+              "columnType": "Text",
+              "name": "State"
+            },
+            {
+              "columnType": "Text",
+              "name": "CountryCode"
+            },
+            {
+              "columnType": "Text",
+              "name": "ZIP"
+            },
+            {
+              "columnType": "Text",
+              "name": "VATID"
+            },
+            {
+              "columnType": "Text",
+              "name": "NationalVATID"
+            },
+            {
+              "columnType": "Text",
+              "name": "BankAccount"
+            },
+            {
+              "columnType": "Text",
+              "name": "BankCode"
+            },
+            {
+              "columnType": "Text",
+              "name": "IBAN"
+            },
+            {
+              "columnType": "Text",
+              "name": "BusinessUnitId"
+            }
+          ]
+        }
+      },
+      "comment": "",
+      "id": "0dae39cb-8535-4a34-a742-8e89b8fa088b",
+      "isInherited": true,
+      "isUsed": true,
+      "name": "Vendors",
+      "type": "Catalog"
+    },
+    {
+      "catalogValue": {
+        "catalogId": "BusinessUnits",
+        "catalogName": "BusinessUnits",
+        "columnScheme": {
+          "columns": [
+            {
+              "columnType": "Text",
+              "name": "Id"
+            },
+            {
+              "columnType": "Text",
+              "name": "Name"
+            },
+            {
+              "columnType": "Text",
+              "name": "City"
+            },
+            {
+              "columnType": "Text",
+              "name": "Street"
+            },
+            {
+              "columnType": "Text",
+              "name": "State"
+            },
+            {
+              "columnType": "Text",
+              "name": "CountryCode"
+            },
+            {
+              "columnType": "Text",
+              "name": "ZIP"
+            },
+            {
+              "columnType": "Text",
+              "name": "VATID"
+            }
+          ]
+        }
+      },
+      "comment": "",
+      "id": "fbab7311-07fb-4e8b-b205-44636b85368d",
+      "isInherited": true,
+      "isUsed": true,
+      "name": "BusinessUnits",
+      "type": "Catalog"
+    },
+    {
+      "catalogValue": {
+        "catalogId": "PurchaseOrders",
+        "catalogName": "PurchaseOrders",
+        "columnScheme": {
+          "columns": [
+            {
+              "columnType": "Text",
+              "name": "PONumber"
+            },
+            {
+              "columnType": "Double",
+              "name": "Netto"
+            },
+            {
+              "columnType": "Text",
+              "name": "VendorId"
+            },
+            {
+              "columnType": "Text",
+              "name": "BUId"
+            }
+          ]
+        }
+      },
+      "comment": "",
+      "id": "232a67e0-8bbf-416a-8813-70e78267666e",
+      "isInherited": true,
+      "isUsed": true,
+      "name": "PurchaseOrders",
+      "type": "Catalog"
+    },
+    {
+      "catalogValue": {
+        "catalogId": "PurchaseOrderDetails",
+        "catalogName": "PurchaseOrderDetails",
+        "columnScheme": {
+          "columns": [
+            {
+              "columnType": "Text",
+              "name": "ItemId"
+            },
+            {
+              "columnType": "Text",
+              "name": "PONumber"
+            },
+            {
+              "columnType": "Text",
+              "name": "Article"
+            },
+            {
+              "columnType": "Integer",
+              "name": "Quantity"
+            },
+            {
+              "columnType": "Double",
+              "name": "UnitPrice"
+            },
+            {
+              "columnType": "Double",
+              "name": "Discount"
+            },
+            {
+              "columnType": "Double",
+              "name": "TotalPriceNetto"
+            },
+            {
+              "columnType": "Double",
+              "name": "TotalPriceBrutto"
+            },
+            {
+              "columnType": "Text",
+              "name": "BUId"
+            },
+            {
+              "columnType": "Text",
+              "name": "Description"
+            }
+          ]
+        }
+      },
+      "comment": "",
+      "id": "b8316c08-26bb-4d3d-9ed5-209271e6deb7",
+      "isInherited": true,
+      "isUsed": true,
+      "name": "PurchaseOrderDetails",
+      "type": "Catalog"
+    }
+  ]
+}
