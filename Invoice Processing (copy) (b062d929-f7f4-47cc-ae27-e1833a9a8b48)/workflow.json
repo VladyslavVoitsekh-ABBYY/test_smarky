@@ -1,0 +1,77 @@
+{
+  "definition": {
+    "Activity_08xn2ug": {
+      "classes": [],
+      "disabledClassesIds": [],
+      "exportFormat": [
+        {
+          "format": "Json"
+        }
+      ],
+      "externalExportType": "NotSpecified",
+      "externalSystemScript": "",
+      "fieldsToRedact": [],
+      "id": "Activity_08xn2ug",
+      "name": "Output",
+      "notices": [],
+      "onlineLearningSkills": [],
+      "parameterReferences": [],
+      "skillLinks": [],
+      "type": "Output"
+    },
+    "Activity_0if1e36": {
+      "classes": [],
+      "controlFlow": {
+        "id": "Flow_17ilv8z",
+        "nextStepId": "Activity_11d9w31"
+      },
+      "disabledClassesIds": [],
+      "exportFormat": [],
+      "id": "Activity_0if1e36",
+      "name": "Input",
+      "notices": [],
+      "onlineLearningSkills": [],
+      "parameterReferences": [],
+      "skillLinks": [],
+      "type": "Input"
+    },
+    "Activity_0rny7bm": {
+      "classes": [],
+      "controlFlow": {
+        "id": "Flow_0kwrvib",
+        "nextStepId": "Activity_08xn2ug"
+      },
+      "disabledClassesIds": [],
+      "exportFormat": [],
+      "id": "Activity_0rny7bm",
+      "manualReviewCondition": "All",
+      "name": "Manual Review",
+      "notices": [],
+      "onlineLearningSkills": [],
+      "parameterReferences": [],
+      "skillLinks": [],
+      "type": "ManualReview"
+    },
+    "Activity_11d9w31": {
+      "classes": [],
+      "controlFlow": {
+        "id": "Flow_0j756kz",
+        "nextStepId": "Activity_0rny7bm"
+      },
+      "disabledClassesIds": [],
+      "exportFormat": [],
+      "id": "Activity_11d9w31",
+      "name": "Extract",
+      "notices": [],
+      "onlineLearningSkills": [],
+      "parameterReferences": [],
+      "skillLinks": [
+        {
+          "id": "520cad1c-abe3-42fc-9ddb-b01f1f5fc103",
+          "version": 1
+        }
+      ],
+      "type": "Extraction"
+    }
+  }
+}
